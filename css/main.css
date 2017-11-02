@@ -112,7 +112,9 @@ i:hover{
 .project{
 	display: flex;
 	justify-content: space-between;
-	height: 10%;
+	height: 15%;
+	align-items: center;
+	text-align: center;
 	width: 100%;
 	padding: 5px;
 	margin-top: 5px;
@@ -121,6 +123,12 @@ i:hover{
 	background: linear-gradient(to right, rgba(115,32,119,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6732077', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
 }
+
+.project>img{
+	width: 40px;
+	height: 40px;
+}
+
 
 .round{
 	border-radius: 100px;
